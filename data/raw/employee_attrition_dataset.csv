@@ -1,0 +1,149 @@
+EmployeeID,EmployeeName,Age,Gender,Department,JobRole,EducationLevel,MaritalStatus,YearsAtCompany,MonthlyIncome,PerformanceRating,JobSatisfaction,WorkLifeBalance,TrainingHours,PromotionStatus,OvertimeStatus,AttritionStatus,AttritionReason,ManagerRating,EmployeeEngagementScore
+EMP001,Samantha Davis,23,Female,Operations,Logistics Coordinator,Master's Degree,Married,9,3671,3,1,1,29,No,Yes,Yes,Work-Life Balance,3,3
+EMP002,Emma Moore,22,Female,Sales,Sales Representative,Bachelor's Degree,Single,13,5845,2,3,3,44,No,No,No,N/A,1,3
+EMP003,Timothy Garcia,57,Male,Support,Technical Support,Bachelor's Degree,Married,0,3929,4,5,4,12,No,No,No,N/A,4,4
+EMP004,Christine Moore,65,Female,Support,Support Manager,Bachelor's Degree,Single,2,6491,5,4,3,41,No,No,No,N/A,4,3
+EMP005,Paul Jones,35,Female,Marketing,Content Writer,Bachelor's Degree,Married,9,7890,3,3,2,71,No,No,No,N/A,3,3
+EMP006,Sarah Allen,53,Male,Sales,Sales Executive,Bachelor's Degree,Single,5,8492,2,3,5,67,No,No,No,N/A,3,3
+EMP007,Jonathan Carter,39,Female,Operations,Process Analyst,Bachelor's Degree,Married,12,6966,5,4,3,13,No,Yes,No,N/A,3,3
+EMP008,Maria Hernandez,56,Female,HR,HR Coordinator,Bachelor's Degree,Married,0,4378,4,4,2,7,No,No,Yes,Management,4,1
+EMP009,Jonathan Roberts,30,Male,IT,IT Support Specialist,Bachelor's Degree,Divorced,2,4040,5,4,4,39,No,No,No,N/A,4,3
+EMP010,Ashley Anderson,26,Male,Marketing,Digital Marketing Specialist,Bachelor's Degree,Single,5,3429,3,5,4,9,No,Yes,No,N/A,2,3
+EMP011,Pamela Torres,52,Male,IT,Data Analyst,Bachelor's Degree,Single,2,8225,3,5,1,12,Yes,No,No,N/A,4,4
+EMP012,Jonathan Lewis,30,Male,Operations,Logistics Coordinator,Master's Degree,Single,7,7631,2,4,3,1,No,No,No,N/A,4,4
+EMP013,Margaret Sanchez,25,Male,Sales,Sales Representative,Bachelor's Degree,Married,2,5058,4,4,4,62,No,Yes,No,N/A,3,3
+EMP014,Catherine Lee,25,Male,IT,IT Support Specialist,Diploma,Married,8,3416,3,4,2,15,No,No,No,N/A,4,3
+EMP015,Raymond Nguyen,58,Male,HR,HR Manager,Master's Degree,Single,1,5518,4,3,2,9,Yes,No,No,N/A,4,4
+EMP016,Nicholas Taylor,30,Female,Finance,Accountant,Bachelor's Degree,Single,7,6023,4,5,4,1,No,No,No,N/A,5,4
+EMP017,Kimberly Davis,28,Female,Sales,Account Executive,Master's Degree,Married,1,9511,4,3,2,6,Yes,No,Yes,Career Growth,4,2
+EMP018,Kimberly Hernandez,50,Female,IT,Software Engineer,Diploma,Divorced,5,6846,3,4,3,18,No,Yes,Yes,Health,4,3
+EMP019,Dorothy Wilson,65,Male,Sales,Sales Representative,PhD,Married,10,4616,4,5,4,52,Yes,No,No,N/A,5,3
+EMP020,Jack Thomas,39,Male,Support,Client Success Manager,Master's Degree,Divorced,1,7103,3,4,4,28,Yes,Yes,No,N/A,5,2
+EMP021,Emily Thompson,63,Male,Support,Technical Support,PhD,Single,14,5063,3,5,1,76,No,No,Yes,Work-Life Balance,3,3
+EMP022,Pamela Gonzalez,38,Male,IT,IT Support Specialist,Bachelor's Degree,Single,4,5245,4,4,1,38,No,No,Yes,Management,3,3
+EMP023,Christine Harris,65,Female,Sales,Account Executive,Bachelor's Degree,Married,1,5217,3,4,4,59,No,No,No,N/A,4,1
+EMP024,Jack Hernandez,64,Male,Marketing,Content Writer,Diploma,Divorced,1,4154,3,2,1,31,No,No,No,N/A,2,4
+EMP025,Pamela Gonzalez,46,Male,Operations,Operations Manager,Master's Degree,Divorced,9,11395,3,4,4,59,Yes,Yes,No,N/A,2,4
+EMP026,Christine King,57,Female,Legal,Paralegal,Master's Degree,Married,3,6855,3,2,4,57,No,Yes,No,N/A,4,2
+EMP027,Benjamin Thomas,39,Male,R&D,Product Developer,Bachelor's Degree,Single,3,5939,2,3,2,27,Yes,No,No,N/A,3,4
+EMP028,Rebecca Harris,59,Female,Sales,Sales Representative,Bachelor's Degree,Divorced,1,4691,4,5,3,69,No,No,No,N/A,3,4
+EMP029,Deborah Perez,64,Female,IT,IT Support Specialist,Master's Degree,Divorced,16,9157,1,3,3,3,Yes,No,No,N/A,4,4
+EMP030,Carol Wilson,51,Male,R&D,Innovation Analyst,Bachelor's Degree,Divorced,2,4032,3,4,1,44,No,Yes,No,N/A,4,3
+EMP031,Ashley Gonzalez,23,Female,Operations,Operations Associate,Master's Degree,Married,1,3315,4,2,3,14,No,Yes,Yes,Work-Life Balance,4,3
+EMP032,Timothy Sanchez,34,Male,Support,Support Manager,Diploma,Married,8,11957,4,4,3,5,No,No,No,N/A,3,3
+EMP033,Rebecca Young,28,Male,IT,Data Analyst,Master's Degree,Married,5,11702,3,4,3,61,No,No,No,N/A,3,4
+EMP034,Barbara Moore,50,Male,IT,Data Analyst,Bachelor's Degree,Married,2,8948,3,4,2,76,No,Yes,Yes,Retirement,5,4
+EMP035,Gary Scott,37,Female,Support,Client Success Manager,Bachelor's Degree,Single,1,6584,4,3,3,60,No,Yes,No,N/A,3,3
+EMP036,Ryan Moore,41,Male,Sales,Sales Manager,Bachelor's Degree,Married,12,9831,2,4,2,75,No,No,Yes,Career Growth,4,4
+EMP037,Daniel Martin,22,Female,Sales,Sales Executive,PhD,Married,5,4064,4,4,1,1,No,No,Yes,Career Growth,5,4
+EMP038,Kathleen Davis,26,Male,Sales,Sales Executive,Bachelor's Degree,Married,12,4347,5,2,4,77,No,No,No,N/A,2,5
+EMP039,Joshua Nguyen,49,Male,Support,Customer Support Rep,PhD,Single,1,5703,2,2,3,20,Yes,No,No,N/A,3,4
+EMP040,Alexander Jackson,51,Male,Operations,Process Analyst,Master's Degree,Married,4,5075,3,3,3,34,No,Yes,Yes,Compensation,3,2
+EMP041,Andrew Lewis,29,Male,Operations,Operations Associate,PhD,Married,3,2500,3,5,4,77,No,Yes,No,N/A,4,2
+EMP042,John Carter,65,Female,Marketing,Digital Marketing Specialist,Bachelor's Degree,Married,10,5181,5,3,4,11,No,No,Yes,Career Growth,4,4
+EMP043,Amy Jackson,64,Female,Finance,Financial Analyst,Bachelor's Degree,Single,2,8007,4,4,1,69,No,Yes,No,N/A,3,3
+EMP044,Jeffrey Carter,25,Male,Marketing,Content Writer,Bachelor's Degree,Married,1,6312,4,2,2,70,Yes,No,Yes,Relocation,5,5
+EMP045,Samuel Martinez,53,Female,Operations,Process Analyst,Bachelor's Degree,Married,3,7482,3,3,5,65,No,Yes,Yes,Management,4,3
+EMP046,Tyler Allen,39,Female,Operations,Process Analyst,Master's Degree,Married,4,4579,3,3,2,69,No,No,No,N/A,4,3
+EMP047,Deborah Anderson,48,Male,R&D,Innovation Analyst,Bachelor's Degree,Married,7,5439,3,1,3,75,No,Yes,No,N/A,5,4
+EMP048,Mary Campbell,31,Male,Support,Support Manager,Diploma,Married,1,10183,4,4,4,68,No,Yes,No,N/A,4,1
+EMP049,Robert Flores,26,Male,Support,Technical Support,PhD,Married,2,3153,4,4,1,21,No,No,Yes,Management,3,4
+EMP050,Christopher Thomas,55,Male,Support,Support Manager,Bachelor's Degree,Single,8,12212,4,3,3,29,No,Yes,Yes,Career Growth,4,1
+EMP051,Gregory Wright,32,Male,HR,Recruiter,Master's Degree,Married,1,5123,2,3,3,30,No,No,No,N/A,3,3
+EMP052,Raymond Sanchez,39,Male,Finance,Financial Analyst,PhD,Married,7,7619,4,2,4,28,No,No,No,N/A,3,2
+EMP053,Sarah Green,28,Female,Support,Technical Support,Master's Degree,Single,2,3411,2,3,4,22,No,No,No,N/A,3,4
+EMP054,Paul Hernandez,38,Female,HR,Recruiter,Master's Degree,Single,0,3116,2,5,4,50,No,No,No,N/A,4,3
+EMP055,Jonathan Davis,51,Male,R&D,R&D Engineer,Bachelor's Degree,Married,11,6306,4,3,3,71,No,No,No,N/A,3,3
+EMP056,Rachel Martin,63,Male,Sales,Sales Executive,Bachelor's Degree,Married,0,6903,2,3,4,69,No,No,Yes,Compensation,4,4
+EMP057,Edward Moore,24,Female,Operations,Operations Associate,PhD,Divorced,0,3856,3,5,3,50,No,No,No,N/A,4,3
+EMP058,Margaret Adams,62,Female,Sales,Account Executive,Bachelor's Degree,Single,3,4005,4,4,3,29,No,Yes,No,N/A,5,3
+EMP059,Christopher Rodriguez,56,Male,Sales,Sales Executive,Diploma,Single,6,8641,3,2,1,53,No,No,Yes,Management,3,3
+EMP060,Nicholas Anderson,61,Male,R&D,R&D Engineer,Bachelor's Degree,Divorced,0,8992,4,3,1,56,Yes,Yes,No,N/A,4,4
+EMP061,Samantha Nguyen,57,Female,IT,System Administrator,Bachelor's Degree,Married,0,4124,4,4,4,27,No,No,No,N/A,4,2
+EMP062,Janet Miller,42,Male,Support,Technical Support,PhD,Married,3,3185,4,1,1,47,No,No,No,N/A,3,3
+EMP063,Jessica Clark,44,Female,HR,Training Specialist,Master's Degree,Married,14,9480,3,2,3,19,No,Yes,Yes,Relocation,3,4
+EMP064,Pamela Anderson,49,Female,Legal,Legal Counsel,Master's Degree,Married,5,6295,2,4,2,43,No,Yes,Yes,Work-Life Balance,5,4
+EMP065,Patricia Garcia,55,Male,IT,System Administrator,Bachelor's Degree,Single,2,9093,3,5,2,79,Yes,Yes,No,N/A,3,4
+EMP066,Rebecca Moore,35,Female,Sales,Sales Representative,Diploma,Married,4,6107,4,1,3,76,Yes,Yes,No,N/A,4,2
+EMP067,Donna Lee,29,Male,R&D,Product Developer,Diploma,Married,1,10933,4,4,1,5,No,No,Yes,Compensation,3,4
+EMP068,Samantha Clark,40,Male,Sales,Account Executive,Bachelor's Degree,Divorced,2,6950,2,4,2,75,No,Yes,No,N/A,3,3
+EMP069,Heather Hernandez,26,Male,Sales,Sales Manager,PhD,Single,5,16119,4,2,1,25,No,Yes,Yes,Career Growth,5,3
+EMP070,Cynthia Carter,58,Female,IT,System Administrator,Master's Degree,Married,1,3780,3,4,4,75,Yes,No,No,N/A,3,3
+EMP071,Andrew Jones,63,Female,Finance,Auditor,Bachelor's Degree,Married,6,4015,3,4,4,41,No,No,No,N/A,2,4
+EMP072,Amanda Rivera,27,Male,Sales,Sales Manager,Master's Degree,Divorced,3,14705,2,3,2,52,No,No,Yes,Work-Life Balance,3,4
+EMP073,Brenda Baker,46,Male,R&D,Product Developer,Bachelor's Degree,Married,1,8288,3,4,4,16,No,No,No,N/A,2,4
+EMP074,Thomas Nelson,65,Female,Sales,Sales Representative,Bachelor's Degree,Single,1,3505,3,4,2,17,No,Yes,No,N/A,3,3
+EMP075,Jack King,24,Female,Finance,Accountant,Bachelor's Degree,Single,1,7845,4,2,3,52,No,No,No,N/A,2,2
+EMP076,Tyler Lewis,36,Male,Operations,Operations Associate,PhD,Single,5,5773,5,3,2,48,No,No,Yes,Career Growth,2,2
+EMP077,Michael Adams,52,Female,Marketing,Marketing Manager,Master's Degree,Married,1,4923,4,3,5,18,No,Yes,No,N/A,4,2
+EMP078,Patricia Clark,25,Male,IT,Data Analyst,PhD,Single,0,4304,4,4,4,17,Yes,No,No,N/A,4,2
+EMP079,Jacob Lewis,61,Male,Sales,Account Executive,Bachelor's Degree,Single,11,11949,3,2,2,38,Yes,Yes,Yes,Work-Life Balance,5,4
+EMP080,Amy Hill,56,Male,Marketing,Digital Marketing Specialist,Master's Degree,Single,0,5390,3,3,4,10,No,No,No,N/A,2,3
+EMP081,Nicholas Scott,23,Male,IT,Data Analyst,PhD,Single,0,3968,3,4,3,74,No,Yes,Yes,Work-Life Balance,4,3
+EMP082,Heather Baker,51,Other,IT,IT Support Specialist,Master's Degree,Single,6,6636,1,2,4,5,No,Yes,Yes,Relocation,3,3
+EMP083,Samuel Gonzalez,40,Male,R&D,R&D Engineer,Bachelor's Degree,Married,2,8571,4,5,3,23,No,No,No,N/A,2,3
+EMP084,Janet Ramirez,27,Male,Admin,Office Manager,Bachelor's Degree,Single,0,7914,3,3,4,21,No,No,Yes,Relocation,2,5
+EMP085,Emily Green,25,Male,Support,Technical Support,Bachelor's Degree,Married,1,2553,2,4,4,4,Yes,Yes,No,N/A,2,5
+EMP086,Robert Hill,31,Female,HR,Recruiter,Bachelor's Degree,Single,1,5671,3,4,2,14,Yes,Yes,No,N/A,4,3
+EMP087,Heather Taylor,50,Male,Support,Client Success Manager,Bachelor's Degree,Single,0,4305,4,3,1,40,No,No,No,N/A,3,4
+EMP088,Charles Rivera,62,Male,IT,IT Support Specialist,Diploma,Single,1,6069,1,4,3,70,Yes,No,No,N/A,2,4
+EMP089,Kathleen King,48,Female,Finance,Financial Analyst,Diploma,Single,0,8210,4,3,4,70,No,Yes,No,N/A,2,4
+EMP090,Linda Davis,55,Male,Sales,Account Executive,PhD,Single,12,11015,4,4,2,70,No,No,No,N/A,4,4
+EMP091,Emma Nguyen,31,Male,Support,Technical Support,Master's Degree,Married,7,2975,2,5,4,33,No,No,No,N/A,3,2
+EMP092,Benjamin Wright,40,Female,Operations,Logistics Coordinator,Master's Degree,Married,1,2870,4,2,3,59,No,No,No,N/A,3,2
+EMP093,Brian Sanchez,30,Female,Marketing,Marketing Manager,Bachelor's Degree,Married,1,6998,2,1,5,78,No,No,No,N/A,4,1
+EMP094,Patrick Lee,34,Female,Marketing,Brand Strategist,Bachelor's Degree,Single,0,6865,3,5,2,45,Yes,Yes,No,N/A,4,2
+EMP095,Andrew Wright,22,Female,IT,System Administrator,Master's Degree,Married,2,7353,2,4,3,36,Yes,No,No,N/A,3,5
+EMP096,Debra Flores,29,Male,Sales,Account Executive,Master's Degree,Single,11,5874,2,3,3,5,Yes,No,No,N/A,3,3
+EMP097,Angela Rodriguez,42,Female,Operations,Operations Associate,PhD,Married,1,3788,3,3,3,72,No,No,No,N/A,2,1
+EMP098,Justin Martin,62,Male,IT,IT Support Specialist,Master's Degree,Married,1,7093,4,4,3,31,Yes,No,No,N/A,4,3
+EMP099,Karen Clark,35,Male,R&D,Innovation Analyst,Master's Degree,Married,0,4357,3,4,5,61,No,Yes,Yes,Health,3,4
+EMP100,Jerry Campbell,65,Female,Support,Client Success Manager,Bachelor's Degree,Single,3,5206,5,5,4,26,No,No,No,N/A,2,3
+EMP101,Patrick Moore,40,Male,Support,Client Success Manager,Master's Degree,Single,2,4313,3,3,4,44,No,No,No,N/A,4,5
+EMP102,Paul Scott,39,Male,Support,Support Manager,Bachelor's Degree,Married,3,10947,3,2,2,60,Yes,No,Yes,Work-Life Balance,4,3
+EMP103,Jacob Walker,63,Male,Legal,Contract Specialist,Bachelor's Degree,Single,6,10180,3,3,4,4,No,Yes,No,N/A,4,5
+EMP104,Ronald Young,33,Female,Legal,Contract Specialist,Master's Degree,Single,3,4051,5,3,3,69,No,No,Yes,Work-Life Balance,3,5
+EMP105,Kevin Hernandez,51,Female,R&D,Research Scientist,Master's Degree,Married,3,7563,2,5,4,54,No,Yes,No,N/A,4,4
+EMP106,Carol Thomas,22,Male,Operations,Process Analyst,PhD,Single,5,3280,3,3,2,15,No,Yes,No,N/A,5,2
+EMP107,Jerry Martin,29,Female,HR,Recruiter,Master's Degree,Single,1,3866,3,5,3,70,No,No,No,N/A,4,2
+EMP108,Debra Carter,60,Female,Sales,Sales Representative,Bachelor's Degree,Single,10,3555,2,3,3,73,No,Yes,No,N/A,2,4
+EMP109,Carolyn Nguyen,53,Male,Marketing,Marketing Manager,Bachelor's Degree,Married,2,4725,3,4,2,2,No,No,No,N/A,3,3
+EMP110,Brian Hall,26,Male,Sales,Sales Executive,PhD,Married,1,4093,4,4,5,53,No,No,No,N/A,4,3
+EMP111,William Baker,64,Female,Sales,Account Executive,Diploma,Divorced,2,4506,4,2,1,2,No,No,No,N/A,3,4
+EMP112,Sandra Thomas,51,Male,Operations,Operations Manager,Diploma,Married,4,4415,3,1,3,57,No,No,Yes,Management,3,4
+EMP113,Margaret Carter,25,Male,Admin,Office Manager,Master's Degree,Married,2,7841,4,4,2,18,No,No,No,N/A,3,4
+EMP114,Emma Mitchell,33,Female,IT,Data Analyst,Diploma,Single,4,8185,4,3,3,19,No,Yes,Yes,Career Growth,4,5
+EMP115,Christopher Robinson,25,Female,Legal,Compliance Officer,Bachelor's Degree,Single,2,4336,5,4,1,24,Yes,No,No,N/A,4,3
+EMP116,Maria Nguyen,64,Female,IT,System Administrator,Bachelor's Degree,Divorced,1,5013,5,2,5,61,No,No,No,N/A,3,4
+EMP117,Carol Roberts,40,Male,Marketing,Content Writer,Bachelor's Degree,Single,9,6418,2,5,3,40,No,No,No,N/A,3,3
+EMP118,Christopher Johnson,38,Female,Marketing,Brand Strategist,Bachelor's Degree,Single,1,8858,4,3,4,43,No,No,No,N/A,3,2
+EMP119,Lisa Campbell,44,Male,R&D,Innovation Analyst,Bachelor's Degree,Divorced,19,5616,3,4,1,6,No,No,No,N/A,4,5
+EMP120,Mary Wilson,54,Male,Sales,Sales Representative,Master's Degree,Single,3,5117,1,3,2,36,Yes,No,No,N/A,4,1
+EMP121,Susan Miller,55,Male,Sales,Account Executive,Master's Degree,Single,2,7067,5,3,2,28,No,No,Yes,Other,3,3
+EMP122,Stephanie Harris,46,Female,Sales,Sales Executive,Master's Degree,Single,7,9417,4,4,4,12,No,No,Yes,Health,3,2
+EMP123,Paul Williams,26,Female,Operations,Operations Manager,Bachelor's Degree,Divorced,0,6295,3,4,4,50,No,Yes,No,N/A,2,3
+EMP124,Gregory Wright,43,Male,R&D,Research Scientist,Bachelor's Degree,Divorced,0,10336,3,1,3,78,No,No,No,N/A,4,3
+EMP125,Laura Young,36,Male,HR,Training Specialist,Bachelor's Degree,Married,2,7218,3,2,1,34,No,No,No,N/A,3,3
+EMP126,Susan Garcia,22,Female,IT,System Administrator,Diploma,Single,2,8982,3,3,1,45,No,No,No,N/A,4,3
+EMP127,Edward Harris,27,Female,Marketing,Digital Marketing Specialist,Bachelor's Degree,Single,2,3855,3,3,1,21,No,No,No,N/A,4,4
+EMP128,Ashley Campbell,62,Male,Support,Client Success Manager,Diploma,Single,12,7810,4,3,4,56,No,No,No,N/A,4,3
+EMP129,Carol Hill,34,Male,Sales,Sales Representative,PhD,Single,5,6000,5,4,2,35,No,No,Yes,Work-Life Balance,3,3
+EMP130,Debra Roberts,57,Male,R&D,Product Developer,Bachelor's Degree,Single,5,10092,4,2,2,32,No,No,No,N/A,5,5
+EMP131,Kathleen Nguyen,47,Male,HR,Training Specialist,Bachelor's Degree,Married,2,6580,3,5,1,31,No,No,No,N/A,5,4
+EMP132,Gregory Adams,47,Female,Operations,Operations Associate,Diploma,Single,1,4866,3,4,2,47,No,No,No,N/A,3,3
+EMP133,Patricia Walker,28,Male,HR,HR Coordinator,Diploma,Divorced,1,4165,3,4,3,44,No,No,No,N/A,3,4
+EMP134,Alexander Davis,23,Female,Support,Support Manager,PhD,Married,3,9948,2,4,5,29,No,No,No,N/A,3,3
+EMP135,Jack Flores,34,Male,IT,Software Engineer,Master's Degree,Single,6,5686,3,4,3,46,No,No,No,N/A,4,2
+EMP136,Samantha Lee,60,Male,IT,Software Engineer,Bachelor's Degree,Married,4,8845,5,4,4,40,Yes,Yes,Yes,Management,3,3
+EMP137,Sarah Torres,46,Male,Marketing,Digital Marketing Specialist,Bachelor's Degree,Married,1,5229,4,4,4,1,No,Yes,No,N/A,2,3
+EMP138,Edward Baker,53,Male,Finance,Auditor,Bachelor's Degree,Married,6,6097,3,3,3,21,No,No,No,N/A,3,3
+EMP139,Pamela Davis,39,Female,Finance,Finance Manager,Bachelor's Degree,Married,6,12988,3,5,1,31,No,No,No,N/A,3,5
+EMP140,Jeffrey Davis,37,Male,R&D,R&D Engineer,Master's Degree,Married,2,11199,2,2,2,7,No,No,No,N/A,5,5
+EMP141,Donna Jackson,58,Male,Finance,Financial Analyst,Diploma,Married,2,4113,5,5,1,16,No,No,No,N/A,4,2
+EMP142,Gary Martinez,58,Female,Support,Client Success Manager,Bachelor's Degree,Married,8,4449,3,4,4,47,No,No,No,N/A,5,2
+EMP143,Barbara Campbell,51,Female,Support,Customer Support Rep,Master's Degree,Single,14,4209,3,3,2,70,No,No,No,N/A,3,4
+EMP144,Michael Williams,28,Female,Finance,Financial Analyst,Diploma,Divorced,2,3451,5,3,5,16,No,Yes,No,N/A,4,3
+EMP145,George Taylor,27,Male,HR,HR Manager,Diploma,Married,5,7621,3,1,1,27,No,Yes,Yes,Work-Life Balance,5,3
+EMP146,Jessica Ramirez,30,Male,Operations,Operations Manager,Master's Degree,Single,2,7872,2,4,4,17,No,No,No,N/A,2,3
+EMP147,Lisa Lewis,44,Female,Support,Support Manager,PhD,Married,2,5896,2,2,4,75,No,No,No,N/A,4,3
+EMP148,Samuel Garcia,37,Female,Support,Technical Support,Master's Degree,Married,8,8808,4,2,3,24,No,Yes,Yes,Health,4,3

@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+.opencode/
+.pytest_cache/
+*.ipynb_checkpoints/
+analysis/output/charts/*.png
+analysis/output/charts/*.jpg

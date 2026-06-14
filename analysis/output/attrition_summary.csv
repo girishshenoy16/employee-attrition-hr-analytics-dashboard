@@ -1,0 +1,11 @@
+Department,Total,Attrition,AttritionRate
+Admin,2,1,50.0
+Legal,5,2,40.0
+Sales,28,11,39.3
+Operations,18,6,33.3
+IT,22,7,31.8
+HR,11,3,27.3
+Support,24,5,20.8
+Marketing,14,2,14.3
+R&D,14,2,14.3
+Finance,10,0,0.0

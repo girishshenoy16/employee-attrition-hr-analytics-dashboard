@@ -1,0 +1,20 @@
+{
+  "totalEmployees": 148,
+  "attritionCount": 39,
+  "retentionCount": 109,
+  "attritionRate": 26.4,
+  "retentionRate": 73.6,
+  "avgSatisfaction": 3.4,
+  "avgEngagement": 3.2,
+  "avgTenure": 4.0,
+  "avgSalary": 6462,
+  "promotionRate": 18.2,
+  "overtimeRate": 32.4,
+  "avgPerformance": 3.3,
+  "avgWorkLifeBalance": 2.9,
+  "avgManagerRating": 3.5,
+  "totalAttritionCost": 3471792,
+  "potentialSavings": 694358,
+  "companyHealthScore": 55.7,
+  "avgAnnualSalary": 77545
+}

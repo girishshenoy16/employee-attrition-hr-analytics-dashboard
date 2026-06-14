@@ -1,0 +1,16 @@
+Month,Attrition,CumulativeAttrition,Type
+1,0,0,Actual
+2,2,2,Actual
+3,5,7,Actual
+4,4,11,Actual
+5,2,13,Actual
+6,2,15,Actual
+7,5,20,Actual
+8,3,23,Actual
+9,3,26,Actual
+10,4,30,Actual
+11,2,32,Actual
+12,7,39,Actual
+13,4,43,Forecast
+14,4,47,Forecast
+15,4,51,Forecast

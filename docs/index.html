@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workforce Intelligence Dashboard — Employee Attrition & Retention</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container" id="app-loading">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-logo">
+                <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+                <div>
+                    <h1>Workforce IQ</h1>
+                    <span>Intelligence Dashboard</span>
+                </div>
+            </div>
+            <div class="filter-section">
+                <h3><i class="fas fa-sliders-h"></i> Filters & Slicers</h3>
+                <div class="filter-group">
+                    <label><i class="fas fa-building"></i> Department</label>
+                    <select id="filter-dept"><option value="all">All Departments</option></select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-venus-mars"></i> Gender</label>
+                    <select id="filter-gender"><option value="all">All Genders</option></select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-briefcase"></i> Job Role</label>
+                    <select id="filter-role"><option value="all">All Roles</option></select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-graduation-cap"></i> Education Level</label>
+                    <select id="filter-education"><option value="all">All Levels</option></select>
+                </div>
+                <button class="btn-reset" id="btn-reset">
+                    <i class="fas fa-redo-alt"></i> Reset All Filters
+                </button>
+            </div>
+            <div class="sidebar-stats">
+                <h3 style="font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-muted);margin-bottom:var(--space-md);font-weight:600;">
+                    <i class="fas fa-info-circle"></i> Quick Stats
+                </h3>
+                <div class="stat-item">
+                    <span class="stat-label">Total Workforce</span>
+                    <span class="stat-value" id="stat-total">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Avg Tenure</span>
+                    <span class="stat-value" id="stat-tenure">0 yrs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Avg Salary</span>
+                    <span class="stat-value" id="stat-salary">$0</span>
+                </div>
+                <div class="stat-item" style="margin-top:var(--space-md);padding-top:var(--space-md);border-top:1px solid var(--card-border);">
+                    <span class="stat-label" style="font-size:10px;color:var(--text-muted);">
+                        <i class="fas fa-sync-alt"></i> Live filtering
+                    </span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="dashboard-header">
+                <div class="header-left">
+                    <h2><i class="fas fa-brain"></i> Workforce Intelligence Dashboard</h2>
+                    <p>Executive workforce analytics — attrition risk, retention forecast, financial impact &amp; strategic insights</p>
+                </div>
+                <div class="header-badge" id="header-badge">All Departments</div>
+            </header>
+
+            <!-- KPI ROW -->
+            <section class="kpi-row">
+                <div class="kpi-card kpi-attrition">
+                    <div class="kpi-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="kpi-value" id="kpi-attrition">0%</div>
+                    <div class="kpi-label" id="kpi-attrition-label">Attrition Rate</div>
+                    <div class="kpi-trend" id="kpi-trend-attrition"><i class="fas fa-arrow-down"></i></div>
+                </div>
+                <div class="kpi-card kpi-cost">
+                    <div class="kpi-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <div class="kpi-value" id="kpi-cost">$0</div>
+                    <div class="kpi-label" id="kpi-cost-label">Annual Attrition Cost</div>
+                    <div class="kpi-trend" id="kpi-trend-cost"><i class="fas fa-arrow-down"></i></div>
+                </div>
+                <div class="kpi-card kpi-health">
+                    <div class="kpi-icon"><i class="fas fa-heartbeat"></i></div>
+                    <div class="kpi-value" id="kpi-health">0 / 100</div>
+                    <div class="kpi-label" id="kpi-health-label">Workforce Health Score</div>
+                    <div class="kpi-trend" id="kpi-trend-health"><i class="fas fa-arrow-up"></i></div>
+                </div>
+                <div class="kpi-card kpi-retention">
+                    <div class="kpi-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="kpi-value" id="kpi-retention">0%</div>
+                    <div class="kpi-label" id="kpi-retention-label">Retention Rate</div>
+                    <div class="kpi-trend" id="kpi-trend-retention"><i class="fas fa-arrow-up"></i></div>
+                </div>
+                <div class="kpi-card kpi-highrisk">
+                    <div class="kpi-icon"><i class="fas fa-user-times"></i></div>
+                    <div class="kpi-value" id="kpi-highrisk">0</div>
+                    <div class="kpi-label" id="kpi-highrisk-label">Critical Risk Employees</div>
+                    <div class="kpi-trend" id="kpi-trend-highrisk"><i class="fas fa-arrow-down"></i></div>
+                </div>
+                <div class="kpi-card kpi-savings">
+                    <div class="kpi-icon"><i class="fas fa-piggy-bank"></i></div>
+                    <div class="kpi-value" id="kpi-savings">$0</div>
+                    <div class="kpi-label" id="kpi-savings-label">Estimated Annual Savings</div>
+                    <div class="kpi-trend" id="kpi-trend-savings"><i class="fas fa-bullseye"></i> Target</div>
+                </div>
+            </section>
+
+            <!-- EXECUTIVE ALERT -->
+            <section class="exec-alert">
+                <div class="alert-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="alert-content">
+                    <span class="alert-title">Executive Alert</span>
+                    <span class="alert-text" id="alert-text">Loading...</span>
+                </div>
+            </section>
+
+            <!-- EXECUTIVE SUMMARY -->
+            <section class="exec-summary">
+                <div class="summary-card summary-status">
+                    <div class="summary-icon"><i class="fas fa-flag"></i></div>
+                    <div class="summary-content">
+                        <span class="summary-tag">Workforce Overview</span>
+                        <span class="summary-main" id="summary-status-main">Loading...</span>
+                        <span class="summary-sub" id="summary-status-detail">Analyzing workforce data...</span>
+                    </div>
+                </div>
+                <div class="summary-card summary-financial">
+                    <div class="summary-icon"><i class="fas fa-chart-pie"></i></div>
+                    <div class="summary-content">
+                        <span class="summary-tag">Financial Impact</span>
+                        <span class="summary-main" id="summary-cost">$0</span>
+                        <span class="summary-sub" id="summary-savings">Calculating potential savings...</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ROW 1: HIGH-RISK EMPLOYEES TABLE -->
+            <section class="risk-section">
+                <div class="section-title">
+                    <span class="title-icon" style="background:var(--danger-bg);color:var(--accent-rose);"><i class="fas fa-exclamation-triangle"></i></span>
+                    At-Risk Employees — Top 5 Immediate Retention Opportunities
+                </div>
+                <div class="chart-card">
+                    <div style="overflow-x:auto;">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                    <th>Satisfaction</th>
+                                    <th>Overtime</th>
+                                    <th>Tenure</th>
+                                    <th>Risk Level</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="risk-table-body">
+                                <tr><td colspan="8" style="text-align:center;padding:24px;color:var(--text-muted);">Loading data...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin-top:var(--space-md);display:flex;gap:var(--space-md);flex-wrap:wrap;">
+                        <span class="badge badge-success">Low Risk</span>
+                        <span class="badge badge-warning">Medium Risk</span>
+                        <span class="badge badge-danger">High Risk</span>
+                        <span class="badge badge-purple">Critical</span>
+                        <span style="font-size:12px;color:var(--text-muted);margin-left:auto;">
+                            <i class="fas fa-sort-amount-down"></i> Sorted by risk score (highest first)
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ROW 2: ATTRITION DRIVERS -->
+            <section class="mt-xl">
+                <div class="section-title">
+                    <span class="title-icon" style="background:var(--danger-bg);color:var(--accent-rose);"><i class="fas fa-chart-pie"></i></span>
+                    Attrition Drivers
+                </div>
+                <div class="chart-card attrition-chart" style="margin-bottom:var(--space-lg);">
+                    <div class="chart-card-header">
+                        <div>
+                            <h3><i class="fas fa-dollar-sign" style="color:var(--accent-rose);font-size:12px;"></i> Attrition Cost by Department — Ranked by Financial Impact</h3>
+                            <span class="chart-subtitle">Annual financial impact of employee attrition by department.</span>
+                        </div>
+                    </div>
+                    <canvas id="chart-attrition-donut"></canvas>
+                </div>
+                <div class="chart-card attrition-chart">
+                    <div class="chart-card-header">
+                        <h3><i class="fas fa-building" style="color:var(--accent-gold);font-size:10px;"></i> Attrition by Department</h3>
+                    </div>
+                    <canvas id="chart-dept-attrition"></canvas>
+                </div>
+            </section>
+
+            <!-- ROW 3: WORKFORCE DRIVERS & FORECAST -->
+            <section class="mt-xl">
+                <div class="section-title">
+                    <span class="title-icon" style="background:var(--success-bg);color:var(--accent-teal);"><i class="fas fa-chart-line"></i></span>
+                    Workforce Drivers &amp; Forecast
+                </div>
+                <div class="chart-grid chart-grid-2">
+                    <div class="chart-card overtime-chart">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-clock" style="color:var(--accent-rose);font-size:10px;"></i> Overtime vs Attrition</h3>
+                        </div>
+                        <canvas id="chart-overtime"></canvas>
+                    </div>
+                    <div class="chart-card promotion-chart">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-arrow-up" style="color:var(--accent-teal);font-size:10px;"></i> Promotion vs Attrition</h3>
+                        </div>
+                        <canvas id="chart-promotion"></canvas>
+                    </div>
+                    <div class="chart-card tall-chart">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-calendar-check" style="color:var(--accent-cyan);font-size:10px;"></i> Monthly Attrition Trend</h3>
+                        </div>
+                        <canvas id="chart-monthly-trend"></canvas>
+                    </div>
+                    <div class="chart-card tall-chart">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-chart-line" style="color:var(--accent-teal);font-size:10px;"></i> Retention Forecast</h3>
+                        </div>
+                        <canvas id="chart-retention-forecast"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ROW 4: EXECUTIVE RISK RANKING -->
+            <section class="mt-xl">
+                <div class="section-title">
+                    <span class="title-icon" style="background:rgba(108,92,231,0.12);color:var(--accent-purple);"><i class="fas fa-th-list"></i></span>
+                    Executive Risk Ranking by Department
+                </div>
+                <div class="chart-card">
+                    <div style="overflow-x:auto;">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Department</th>
+                                    <th>Attrition %</th>
+                                    <th>Cost Impact</th>
+                                    <th>Risk Score</th>
+                                    <th>Risk Level</th>
+                                </tr>
+                            </thead>
+                            <tbody id="risk-ranking-body">
+                                <tr><td colspan="5" style="text-align:center;padding:24px;color:var(--text-muted);">Loading data...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin-top:var(--space-md);font-size:11px;color:var(--text-muted);">
+                        <i class="fas fa-sort-amount-down"></i> Sorted by Risk Score (highest first)
+                    </div>
+                    <div style="margin-top:8px;font-size:11px;color:var(--text-muted);background:var(--info-bg);padding:8px 12px;border-radius:var(--radius-md);line-height:1.5;">
+                        <i class="fas fa-info-circle" style="color:var(--accent-blue);margin-right:4px;"></i>
+                        Risk Score weights satisfaction, engagement, overtime, promotions, performance, and tenure — not attrition rate alone. A department with high attrition may show moderate risk if departing employees had average scores.
+                    </div>
+                </div>
+            </section>
+
+            <!-- ROW 5: STRATEGIC RECOMMENDATIONS -->
+            <section class="recommendations-section">
+                <div class="section-title">
+                    <span class="title-icon" style="background:var(--success-bg);color:var(--accent-teal);"><i class="fas fa-clipboard-list"></i></span>
+                    Strategic Recommendations
+                </div>
+                <div class="rec-card">
+                    <span class="rec-priority p1">P1</span>
+                    <div class="rec-body">
+                        <span class="rec-text"><strong>Attrition Cost Reduction</strong> — Cut $694K (20%) via retention programs in Sales and Operations.</span>
+                        <div class="rec-meta">
+                            <span class="rec-meta-item"><span class="rec-meta-label">Target</span> 21% Attrition</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Savings</span> $694K</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Timeline</span> 12 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <span class="rec-priority p1">P2</span>
+                    <div class="rec-body">
+                        <span class="rec-text"><strong>Sales &amp; Operations Review</strong> — 30-day deep dive into manager effectiveness and career paths.</span>
+                        <div class="rec-meta">
+                            <span class="rec-meta-item"><span class="rec-meta-label">Target</span> 25% Attrition</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Savings</span> $450K</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Timeline</span> 6 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <span class="rec-priority p2">P3</span>
+                    <div class="rec-body">
+                        <span class="rec-text"><strong>Workforce Health</strong> — Raise Health Score 56% → 70% via pulse surveys, flexible work pilots, and manager training.</span>
+                        <div class="rec-meta">
+                            <span class="rec-meta-item"><span class="rec-meta-label">Target</span> 70% Health Score</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Savings</span> $200K</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Timeline</span> 9 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <span class="rec-priority p2">P4</span>
+                    <div class="rec-body">
+                        <span class="rec-text"><strong>High-Performer Retention</strong> — Accelerated tracks + executive sponsors for unpromoted high-performers.</span>
+                        <div class="rec-meta">
+                            <span class="rec-meta-item"><span class="rec-meta-label">Target</span> 95% Retention</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Savings</span> $180K</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Timeline</span> 6 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <span class="rec-priority p3">P5</span>
+                    <div class="rec-body">
+                        <span class="rec-text"><strong>Early Warning System</strong> — Real-time alerts for departments exceeding 15% quarterly attrition or health scores below 50.</span>
+                        <div class="rec-meta">
+                            <span class="rec-meta-item"><span class="rec-meta-label">Target</span> &lt;15% Quarterly Attrition</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Savings</span> $100K</span>
+                            <span class="rec-meta-item"><span class="rec-meta-label">Timeline</span> 3 Months</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="dashboard-footer">
+                <div>
+                    <i class="fas fa-database"></i> Synthetic HR Dataset &nbsp;|&nbsp; Workforce Intelligence Dashboard
+                </div>
+                <div style="margin-top:4px;">
+                    &copy; 2026 &nbsp;|&nbsp; Built for CEO-level Strategic Decision Making
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+</html>

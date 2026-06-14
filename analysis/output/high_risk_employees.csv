@@ -1,0 +1,141 @@
+EmployeeID,EmployeeName,Department,JobRole,JobSatisfaction,EmployeeEngagementScore,OvertimeStatus,PromotionStatus,YearsAtCompany,PerformanceRating,RiskScore,RiskLevel
+EMP001,Samantha Davis,Operations,Logistics Coordinator,1,3,Yes,No,9,3,23.5,Critical
+EMP145,George Taylor,HR,HR Manager,1,3,Yes,No,5,3,21.5,Critical
+EMP059,Christopher Rodriguez,Sales,Sales Executive,2,3,No,No,6,3,19.5,Critical
+EMP062,Janet Miller,Support,Technical Support,1,3,No,No,3,4,19.0,Critical
+EMP066,Rebecca Moore,Sales,Sales Representative,1,2,Yes,Yes,4,4,19.0,Critical
+EMP069,Heather Hernandez,Sales,Sales Manager,2,3,Yes,No,5,4,18.5,Critical
+EMP050,Christopher Thomas,Support,Support Manager,3,1,Yes,No,8,4,18.5,Critical
+EMP040,Alexander Jackson,Operations,Process Analyst,3,2,Yes,No,4,3,18.5,Critical
+EMP076,Tyler Lewis,Operations,Operations Associate,3,2,No,No,5,5,18.0,Critical
+EMP097,Angela Rodriguez,Operations,Operations Associate,3,1,No,No,1,3,18.0,Critical
+EMP106,Carol Thomas,Operations,Process Analyst,3,2,Yes,No,5,3,18.0,Critical
+EMP125,Laura Young,HR,Training Specialist,2,3,No,No,2,3,18.0,Critical
+EMP120,Mary Wilson,Sales,Sales Representative,3,1,No,Yes,3,1,17.5,Critical
+EMP024,Jack Hernandez,Marketing,Content Writer,2,4,No,No,1,3,17.0,Critical
+EMP082,Heather Baker,IT,IT Support Specialist,2,3,Yes,No,6,1,17.0,Critical
+EMP124,Gregory Wright,R&D,Research Scientist,1,3,No,No,0,3,17.0,Critical
+EMP093,Brian Sanchez,Marketing,Marketing Manager,1,1,No,No,1,2,17.0,Critical
+EMP075,Jack King,Finance,Accountant,2,2,No,No,1,4,17.0,Critical
+EMP148,Samuel Garcia,Support,Technical Support,2,3,Yes,No,8,4,16.5,Critical
+EMP112,Sandra Thomas,Operations,Operations Manager,1,4,No,No,4,3,16.5,Critical
+EMP063,Jessica Clark,HR,Training Specialist,2,4,Yes,No,14,3,16.5,Critical
+EMP002,Emma Moore,Sales,Sales Representative,3,3,No,No,13,2,16.5,Critical
+EMP047,Deborah Anderson,R&D,Innovation Analyst,1,4,Yes,No,7,3,16.5,Critical
+EMP026,Christine King,Legal,Paralegal,2,2,Yes,No,3,3,16.5,Critical
+EMP005,Paul Jones,Marketing,Content Writer,3,3,No,No,9,3,16.0,Critical
+EMP092,Benjamin Wright,Operations,Logistics Coordinator,2,2,No,No,1,4,16.0,Critical
+EMP052,Raymond Sanchez,Finance,Financial Analyst,2,2,No,No,7,4,16.0,Critical
+EMP008,Maria Hernandez,HR,HR Coordinator,4,1,No,No,0,4,15.5,Critical
+EMP102,Paul Scott,Support,Support Manager,2,3,No,Yes,3,3,15.5,Critical
+EMP108,Debra Carter,Sales,Sales Representative,3,4,Yes,No,10,2,15.5,Critical
+EMP111,William Baker,Sales,Account Executive,2,4,No,No,2,4,15.0,Critical
+EMP031,Ashley Gonzalez,Operations,Operations Associate,2,3,Yes,No,1,4,15.0,Critical
+EMP030,Carol Wilson,R&D,Innovation Analyst,4,3,Yes,No,2,3,15.0,Critical
+EMP126,Susan Garcia,IT,System Administrator,3,3,No,No,2,3,15.0,Critical
+EMP043,Amy Jackson,Finance,Financial Analyst,4,3,Yes,No,2,4,15.0,Critical
+EMP060,Nicholas Anderson,R&D,R&D Engineer,3,4,Yes,Yes,0,4,15.0,Critical
+EMP046,Tyler Allen,Operations,Process Analyst,3,3,No,No,4,3,15.0,Critical
+EMP094,Patrick Lee,Marketing,Brand Strategist,5,2,Yes,Yes,0,3,14.5,Critical
+EMP074,Thomas Nelson,Sales,Sales Representative,4,3,Yes,No,1,3,14.5,Critical
+EMP068,Samantha Clark,Sales,Account Executive,4,3,Yes,No,2,2,14.5,Critical
+EMP138,Edward Baker,Finance,Auditor,3,3,No,No,6,3,14.5,Critical
+EMP017,Kimberly Davis,Sales,Account Executive,3,2,No,Yes,1,4,14.5,Critical
+EMP079,Jacob Lewis,Sales,Account Executive,2,4,Yes,Yes,11,3,14.5,Critical
+EMP022,Pamela Gonzalez,IT,IT Support Specialist,4,3,No,No,4,4,14.5,Critical
+EMP143,Barbara Campbell,Support,Customer Support Rep,3,4,No,No,14,3,14.0,Critical
+EMP035,Gary Scott,Support,Client Success Manager,3,3,Yes,No,1,4,14.0,Critical
+EMP087,Heather Taylor,Support,Client Success Manager,3,4,No,No,0,4,14.0,Critical
+EMP018,Kimberly Hernandez,IT,Software Engineer,4,3,Yes,No,5,3,13.5,Critical
+EMP021,Emily Thompson,Support,Technical Support,5,3,No,No,14,3,13.5,Critical
+EMP007,Jonathan Carter,Operations,Process Analyst,4,3,Yes,No,12,5,13.5,Critical
+EMP121,Susan Miller,Sales,Account Executive,3,3,No,No,2,5,13.5,Critical
+EMP135,Jack Flores,IT,Software Engineer,4,2,No,No,6,3,13.5,Critical
+EMP080,Amy Hill,Marketing,Digital Marketing Specialist,3,3,No,No,0,3,13.5,Critical
+EMP055,Jonathan Davis,R&D,R&D Engineer,3,3,No,No,11,4,13.5,Critical
+EMP123,Paul Williams,Operations,Operations Manager,4,3,Yes,No,0,3,13.5,Critical
+EMP048,Mary Campbell,Support,Support Manager,4,1,Yes,No,1,4,13.5,Critical
+EMP086,Robert Hill,HR,Recruiter,4,3,Yes,Yes,1,3,13.5,Critical
+EMP081,Nicholas Scott,IT,Data Analyst,4,3,Yes,No,0,3,13.0,Critical
+EMP039,Joshua Nguyen,Support,Customer Support Rep,2,4,No,Yes,1,2,13.0,Critical
+EMP096,Debra Flores,Sales,Account Executive,3,3,No,Yes,11,2,13.0,Critical
+EMP129,Carol Hill,Sales,Sales Representative,4,3,No,No,5,5,13.0,Critical
+EMP014,Catherine Lee,IT,IT Support Specialist,4,3,No,No,8,3,13.0,Critical
+EMP127,Edward Harris,Marketing,Digital Marketing Specialist,3,4,No,No,2,3,13.0,Critical
+EMP051,Gregory Wright,HR,Recruiter,3,3,No,No,1,2,13.0,Critical
+EMP023,Christine Harris,Sales,Account Executive,4,1,No,No,1,3,12.5,Critical
+EMP147,Lisa Lewis,Support,Support Manager,2,3,No,No,2,2,12.5,Critical
+EMP118,Christopher Johnson,Marketing,Brand Strategist,3,2,No,No,1,4,12.5,Critical
+EMP089,Kathleen King,Finance,Financial Analyst,3,4,Yes,No,0,4,12.5,Critical
+EMP109,Carolyn Nguyen,Marketing,Marketing Manager,4,3,No,No,2,3,12.5,Critical
+EMP072,Amanda Rivera,Sales,Sales Manager,3,4,No,No,3,2,12.5,Critical
+EMP132,Gregory Adams,Operations,Operations Associate,4,3,No,No,1,3,12.5,Critical
+EMP027,Benjamin Thomas,R&D,Product Developer,3,4,No,Yes,3,2,12.5,Critical
+EMP010,Ashley Anderson,Marketing,Digital Marketing Specialist,5,3,Yes,No,5,3,12.0,Critical
+EMP141,Donna Jackson,Finance,Financial Analyst,5,2,No,No,2,5,12.0,Critical
+EMP115,Christopher Robinson,Legal,Compliance Officer,4,3,No,Yes,2,5,12.0,Critical
+EMP077,Michael Adams,Marketing,Marketing Manager,3,2,Yes,No,1,4,12.0,Critical
+EMP122,Stephanie Harris,Sales,Sales Executive,4,2,No,No,7,4,12.0,Critical
+EMP064,Pamela Anderson,Legal,Legal Counsel,4,4,Yes,No,5,2,12.0,Critical
+EMP032,Timothy Sanchez,Support,Support Manager,4,3,No,No,8,4,11.5,Critical
+EMP006,Sarah Allen,Sales,Sales Executive,3,3,No,No,5,2,11.5,Critical
+EMP137,Sarah Torres,Marketing,Digital Marketing Specialist,4,3,Yes,No,1,4,11.5,Critical
+EMP020,Jack Thomas,Support,Client Success Manager,4,2,Yes,Yes,1,3,11.5,Critical
+EMP049,Robert Flores,Support,Technical Support,4,4,No,No,2,4,11.0,Critical
+EMP142,Gary Martinez,Support,Client Success Manager,4,2,No,No,8,3,11.0,Critical
+EMP128,Ashley Campbell,Support,Client Success Manager,3,3,No,No,12,4,11.0,Critical
+EMP130,Debra Roberts,R&D,Product Developer,2,5,No,No,5,4,11.0,Critical
+EMP036,Ryan Moore,Sales,Sales Manager,4,4,No,No,12,2,11.0,Critical
+EMP067,Donna Lee,R&D,Product Developer,4,4,No,No,1,4,11.0,Critical
+EMP091,Emma Nguyen,Support,Technical Support,5,2,No,No,7,2,11.0,Critical
+EMP045,Samuel Martinez,Operations,Process Analyst,3,3,Yes,No,3,3,11.0,Critical
+EMP038,Kathleen Davis,Sales,Sales Executive,2,5,No,No,12,5,11.0,Critical
+EMP119,Lisa Campbell,R&D,Innovation Analyst,4,5,No,No,19,3,10.5,Critical
+EMP033,Rebecca Young,IT,Data Analyst,4,4,No,No,5,3,10.5,Critical
+EMP025,Pamela Gonzalez,Operations,Operations Manager,4,4,Yes,Yes,9,3,10.5,Critical
+EMP061,Samantha Nguyen,IT,System Administrator,4,2,No,No,0,4,10.5,Critical
+EMP114,Emma Mitchell,IT,Data Analyst,3,5,Yes,No,4,4,10.5,Critical
+EMP015,Raymond Nguyen,HR,HR Manager,3,4,No,Yes,1,4,10.5,Critical
+EMP065,Patricia Garcia,IT,System Administrator,5,4,Yes,Yes,2,3,10.5,Critical
+EMP146,Jessica Ramirez,Operations,Operations Manager,4,3,No,No,2,2,10.5,Critical
+EMP117,Carol Roberts,Marketing,Content Writer,5,3,No,No,9,2,10.5,Critical
+EMP136,Samantha Lee,IT,Software Engineer,4,3,Yes,Yes,4,5,10.5,Critical
+EMP041,Andrew Lewis,Operations,Operations Associate,5,2,Yes,No,3,3,10.5,Critical
+EMP013,Margaret Sanchez,Sales,Sales Representative,4,3,Yes,No,2,4,10.5,Critical
+EMP140,Jeffrey Davis,R&D,R&D Engineer,2,5,No,No,2,2,10.5,Critical
+EMP037,Daniel Martin,Sales,Sales Executive,4,4,No,No,5,4,10.5,Critical
+EMP078,Patricia Clark,IT,Data Analyst,4,2,No,Yes,0,4,10.5,Critical
+EMP034,Barbara Moore,IT,Data Analyst,4,4,Yes,No,2,3,10.5,Critical
+EMP107,Jerry Martin,HR,Recruiter,5,2,No,No,1,3,10.0,High Risk
+EMP103,Jacob Walker,Legal,Contract Specialist,3,5,Yes,No,6,3,10.0,High Risk
+EMP029,Deborah Perez,IT,IT Support Specialist,3,4,No,Yes,16,1,10.0,High Risk
+EMP071,Andrew Jones,Finance,Auditor,4,4,No,No,6,3,10.0,High Risk
+EMP090,Linda Davis,Sales,Account Executive,4,4,No,No,12,4,10.0,High Risk
+EMP058,Margaret Adams,Sales,Account Executive,4,3,Yes,No,3,4,10.0,High Risk
+EMP144,Michael Williams,Finance,Financial Analyst,3,3,Yes,No,2,5,10.0,High Risk
+EMP088,Charles Rivera,IT,IT Support Specialist,4,4,No,Yes,1,1,10.0,High Risk
+EMP139,Pamela Davis,Finance,Finance Manager,5,5,No,No,6,3,9.5,High Risk
+EMP084,Janet Ramirez,Admin,Office Manager,3,5,No,No,0,3,9.5,High Risk
+EMP113,Margaret Carter,Admin,Office Manager,4,4,No,No,2,4,9.5,High Risk
+EMP053,Sarah Green,Support,Technical Support,3,4,No,No,2,2,9.5,High Risk
+EMP056,Rachel Martin,Sales,Sales Executive,3,4,No,No,0,2,9.5,High Risk
+EMP044,Jeffrey Carter,Marketing,Content Writer,2,5,No,Yes,1,4,9.5,High Risk
+EMP070,Cynthia Carter,IT,System Administrator,4,3,No,Yes,1,3,9.5,High Risk
+EMP012,Jonathan Lewis,Operations,Logistics Coordinator,4,4,No,No,7,2,9.5,High Risk
+EMP116,Maria Nguyen,IT,System Administrator,2,4,No,No,1,5,9.0,High Risk
+EMP004,Christine Moore,Support,Support Manager,4,3,No,No,2,5,9.0,High Risk
+EMP057,Edward Moore,Operations,Operations Associate,5,3,No,No,0,3,9.0,High Risk
+EMP042,John Carter,Marketing,Digital Marketing Specialist,3,4,No,No,10,5,9.0,High Risk
+EMP011,Pamela Torres,IT,Data Analyst,5,4,No,Yes,2,3,9.0,High Risk
+EMP083,Samuel Gonzalez,R&D,R&D Engineer,5,3,No,No,2,4,9.0,High Risk
+EMP133,Patricia Walker,HR,HR Coordinator,4,4,No,No,1,3,9.0,High Risk
+EMP099,Karen Clark,R&D,Innovation Analyst,4,4,Yes,No,0,3,9.0,High Risk
+EMP098,Justin Martin,IT,IT Support Specialist,4,3,No,Yes,1,4,9.0,High Risk
+EMP085,Emily Green,Support,Technical Support,4,5,Yes,Yes,1,2,8.5,High Risk
+EMP073,Brenda Baker,R&D,Product Developer,4,4,No,No,1,3,8.5,High Risk
+EMP134,Alexander Davis,Support,Support Manager,4,3,No,No,3,2,8.0,High Risk
+EMP131,Kathleen Nguyen,HR,Training Specialist,5,4,No,No,2,3,8.0,High Risk
+EMP104,Ronald Young,Legal,Contract Specialist,3,5,No,No,3,5,8.0,High Risk
+EMP009,Jonathan Roberts,IT,IT Support Specialist,4,3,No,No,2,5,7.5,High Risk
+EMP100,Jerry Campbell,Support,Client Success Manager,5,3,No,No,3,5,7.5,High Risk
+EMP054,Paul Hernandez,HR,Recruiter,5,3,No,No,0,2,7.5,High Risk
